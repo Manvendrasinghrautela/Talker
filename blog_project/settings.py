@@ -15,7 +15,8 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'web-production-c5e75.up.railway.app',  # your production host
+    'web-production-c5e75.up.railway.app',
+    'talker-tmlz.onrender.com',  # your production host
 ]
 # Installed apps including the blog app and media/file handling
 INSTALLED_APPS = [
